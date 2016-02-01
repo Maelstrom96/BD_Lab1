@@ -1,7 +1,21 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DB_Lab1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DB_HostName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mercure.clg.qc.ca</Value>
+    </Setting>
+    <Setting Name="DB_Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1521</Value>
+    </Setting>
+    <Setting Name="DB_Username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lussier1</Value>
+    </Setting>
+    <Setting Name="DB_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ORACLE1</Value>
+    </Setting>
+    <Setting Name="DB_ServiceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ORCL.clg.qc.ca</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
