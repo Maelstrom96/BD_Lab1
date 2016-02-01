@@ -34,6 +34,7 @@
             this.bt_Afficher = new System.Windows.Forms.Button();
             this.bt_Modifier = new System.Windows.Forms.Button();
             this.bt_Supprimer = new System.Windows.Forms.Button();
+            this.bt_Ajouter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Employes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +69,7 @@
             // 
             // bt_Afficher
             // 
-            this.bt_Afficher.Location = new System.Drawing.Point(36, 530);
+            this.bt_Afficher.Location = new System.Drawing.Point(23, 522);
             this.bt_Afficher.Name = "bt_Afficher";
             this.bt_Afficher.Size = new System.Drawing.Size(75, 23);
             this.bt_Afficher.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // bt_Modifier
             // 
-            this.bt_Modifier.Location = new System.Drawing.Point(151, 529);
+            this.bt_Modifier.Location = new System.Drawing.Point(206, 522);
             this.bt_Modifier.Name = "bt_Modifier";
             this.bt_Modifier.Size = new System.Drawing.Size(75, 23);
             this.bt_Modifier.TabIndex = 4;
@@ -86,12 +87,21 @@
             // 
             // bt_Supprimer
             // 
-            this.bt_Supprimer.Location = new System.Drawing.Point(264, 529);
+            this.bt_Supprimer.Location = new System.Drawing.Point(298, 522);
             this.bt_Supprimer.Name = "bt_Supprimer";
             this.bt_Supprimer.Size = new System.Drawing.Size(75, 23);
             this.bt_Supprimer.TabIndex = 5;
             this.bt_Supprimer.Text = "Supprimer";
             this.bt_Supprimer.UseVisualStyleBackColor = true;
+            // 
+            // bt_Ajouter
+            // 
+            this.bt_Ajouter.Location = new System.Drawing.Point(115, 522);
+            this.bt_Ajouter.Name = "bt_Ajouter";
+            this.bt_Ajouter.Size = new System.Drawing.Size(75, 23);
+            this.bt_Ajouter.TabIndex = 4;
+            this.bt_Ajouter.Text = "Ajouter";
+            this.bt_Ajouter.UseVisualStyleBackColor = true;
             // 
             // Form_GestionEmployes
             // 
@@ -99,6 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(977, 589);
             this.Controls.Add(this.bt_Supprimer);
+            this.Controls.Add(this.bt_Ajouter);
             this.Controls.Add(this.bt_Modifier);
             this.Controls.Add(this.bt_Afficher);
             this.Controls.Add(this.txt_Departement);
@@ -120,6 +131,7 @@
         private System.Windows.Forms.Button bt_Afficher;
         private System.Windows.Forms.Button bt_Modifier;
         private System.Windows.Forms.Button bt_Supprimer;
+        private System.Windows.Forms.Button bt_Ajouter;
     }
 }
 
