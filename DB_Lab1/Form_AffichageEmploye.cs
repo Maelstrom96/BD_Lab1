@@ -13,50 +13,12 @@ namespace DB_Lab1
 {
     public partial class Form_AffichageEmploye : Form
     {
-        static private OracleConnection conn_ = new OracleConnection();
-        static private string DataSource = "(DESCRIPTION="
-            + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
-            + "(HOST=" + Properties.Settings.Default.DB_HostName
-            + ")(PORT=" + Properties.Settings.Default.DB_Port.ToString()
-            + ")))(CONNECT_DATA=(SERVICE_NAME=" + Properties.Settings.Default.DB_ServiceName
-            + ")))";
-
-        static private string ConnectionString;
-
-        static private void OpenConnection()
-        {
-            ConnectionString = "Data Source =" + DataSource
-                + " ; User Id=" + Properties.Settings.Default.DB_Username
-                + " ; Password=" + Properties.Settings.Default.DB_Password + ";";
-
-            if (conn_.State == ConnectionState.Closed)
-            {
-                conn_.ConnectionString = ConnectionString;
-                conn_.Open();
-            }
-            else
-            {
-                throw new Exception("DB_ALREADY_OPEN");
-            }
-        }
-
-        static public OracleConnection GetConnection()
-        {
-            if (conn_.State != ConnectionState.Open) conn_.Open();
-            return conn_;
-        }
-
         public Form_AffichageEmploye()
         {
             InitializeComponent();
         }
 
         private void Load()
-        {
-
-        }
-
-        private void FillDepartement()
         {
 
         }
