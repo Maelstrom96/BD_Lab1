@@ -182,6 +182,7 @@
             this.bt_Fin.TabIndex = 4;
             this.bt_Fin.Text = ">>";
             this.bt_Fin.UseVisualStyleBackColor = true;
+            this.bt_Fin.Click += new System.EventHandler(this.bt_Fin_Click);
             // 
             // bt_Suivant
             // 
@@ -191,6 +192,7 @@
             this.bt_Suivant.TabIndex = 4;
             this.bt_Suivant.Text = ">";
             this.bt_Suivant.UseVisualStyleBackColor = true;
+            this.bt_Suivant.Click += new System.EventHandler(this.bt_Suivant_Click);
             // 
             // bt_Precedent
             // 
@@ -200,6 +202,7 @@
             this.bt_Precedent.TabIndex = 4;
             this.bt_Precedent.Text = "<";
             this.bt_Precedent.UseVisualStyleBackColor = true;
+            this.bt_Precedent.Click += new System.EventHandler(this.bt_Precedent_Click);
             // 
             // bt_Debut
             // 
@@ -209,6 +212,7 @@
             this.bt_Debut.TabIndex = 4;
             this.bt_Debut.Text = "<<";
             this.bt_Debut.UseVisualStyleBackColor = true;
+            this.bt_Debut.Click += new System.EventHandler(this.bt_Debut_Click);
             // 
             // Form_AffichageEmploye
             // 

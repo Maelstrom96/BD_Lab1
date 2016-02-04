@@ -49,7 +49,7 @@ namespace DB_Lab1.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("lussier1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("lussierm")]
         public string DB_Username {
             get {
                 return ((string)(this["DB_Username"]));
