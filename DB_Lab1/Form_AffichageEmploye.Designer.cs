@@ -46,6 +46,8 @@
             this.bt_Suivant = new System.Windows.Forms.Button();
             this.bt_Precedent = new System.Windows.Forms.Button();
             this.bt_Debut = new System.Windows.Forms.Button();
+            this.tb_Salaire = new System.Windows.Forms.TextBox();
+            this.bt_Enregistrer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_NumEmp
@@ -214,11 +216,32 @@
             this.bt_Debut.UseVisualStyleBackColor = true;
             this.bt_Debut.Click += new System.EventHandler(this.bt_Debut_Click);
             // 
+            // tb_Salaire
+            // 
+            this.tb_Salaire.Location = new System.Drawing.Point(150, 101);
+            this.tb_Salaire.Name = "tb_Salaire";
+            this.tb_Salaire.Size = new System.Drawing.Size(100, 20);
+            this.tb_Salaire.TabIndex = 5;
+            this.tb_Salaire.Visible = false;
+            // 
+            // bt_Enregistrer
+            // 
+            this.bt_Enregistrer.Location = new System.Drawing.Point(143, 227);
+            this.bt_Enregistrer.Name = "bt_Enregistrer";
+            this.bt_Enregistrer.Size = new System.Drawing.Size(86, 23);
+            this.bt_Enregistrer.TabIndex = 6;
+            this.bt_Enregistrer.Text = "Enregistrer";
+            this.bt_Enregistrer.UseVisualStyleBackColor = true;
+            this.bt_Enregistrer.Visible = false;
+            this.bt_Enregistrer.Click += new System.EventHandler(this.Enregistrer);
+            // 
             // Form_AffichageEmploye
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(269, 282);
+            this.Controls.Add(this.bt_Enregistrer);
+            this.Controls.Add(this.tb_Salaire);
             this.Controls.Add(this.bt_Debut);
             this.Controls.Add(this.bt_Precedent);
             this.Controls.Add(this.bt_Suivant);
@@ -264,5 +287,7 @@
         private System.Windows.Forms.Button bt_Precedent;
         private System.Windows.Forms.Button bt_Debut;
         private System.Windows.Forms.Label lb_RespEmp;
+        private System.Windows.Forms.TextBox tb_Salaire;
+        private System.Windows.Forms.Button bt_Enregistrer;
     }
 }

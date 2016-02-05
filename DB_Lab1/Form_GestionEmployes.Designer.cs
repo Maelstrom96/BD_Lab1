@@ -81,6 +81,7 @@
             this.bt_Modifier.TabIndex = 4;
             this.bt_Modifier.Text = "Modifier";
             this.bt_Modifier.UseVisualStyleBackColor = true;
+            this.bt_Modifier.Click += new System.EventHandler(this.bt_Modifier_Click);
             // 
             // bt_Supprimer
             // 
