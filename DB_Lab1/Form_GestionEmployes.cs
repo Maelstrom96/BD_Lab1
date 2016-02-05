@@ -203,5 +203,12 @@ namespace DB_Lab1
             Form_AffichageEmploye form = new Form_AffichageEmploye(sourceEmp, GetConnection(), double.Parse(dgv_Employes.SelectedRows[0].Cells[3].Value.ToString()));
             if (form.ShowDialog() == DialogResult.OK) FillEmployes();
         }
+
+        private void bt_Ajouter_Click(object sender, EventArgs e)
+        {
+            Form_AjouterEmploye form = new Form_AjouterEmploye(List("Departement", "Nom"), GetConnection());
+            form.ShowDialog();
+            FillEmployes();
+        }
     }
 }

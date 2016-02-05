@@ -56,10 +56,10 @@
             // txt_Departement
             // 
             this.txt_Departement.AutoSize = true;
-            this.txt_Departement.Font = new System.Drawing.Font("Myriad Pro", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Departement.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Departement.Location = new System.Drawing.Point(753, 61);
             this.txt_Departement.Name = "txt_Departement";
-            this.txt_Departement.Size = new System.Drawing.Size(180, 32);
+            this.txt_Departement.Size = new System.Drawing.Size(185, 31);
             this.txt_Departement.TabIndex = 2;
             this.txt_Departement.Text = "Departements";
             // 
@@ -101,6 +101,7 @@
             this.bt_Ajouter.TabIndex = 4;
             this.bt_Ajouter.Text = "Ajouter";
             this.bt_Ajouter.UseVisualStyleBackColor = true;
+            this.bt_Ajouter.Click += new System.EventHandler(this.bt_Ajouter_Click);
             // 
             // lb_Departement
             // 
